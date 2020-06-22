@@ -9,11 +9,20 @@ function generateBanner(title) {
   let lineBottom = document.querySelector(".vertical-line-bottom");
   for (let i = 0; i < title.length; i++) {
     let charBox = document.createElement("div");
-    let rn = random(1.5, 3.5);
+    let rn = 2;
     charBox.innerHTML = "<span class='char'>" + title[i] + "</span>";
     let charSize = rn + "rem";
     banner.insertBefore(charBox, lineBottom);
-    if (i % 2 == 0) {
+    /*if (i % 2 == 0) {
+      charBox.classList.add("char-left");
+      charBox.style.setProperty("--banner-char-size", charSize);
+      charBox.style.animationName = "char-move-left";
+    } else {
+      charBox.classList.add("char-right");
+      charBox.style.setProperty("--banner-char-size", charSize);
+      charBox.style.animationName = "char-move-right";
+    }*/
+	if (i < (title.length/2)) {
       charBox.classList.add("char-left");
       charBox.style.setProperty("--banner-char-size", charSize);
       charBox.style.animationName = "char-move-left";
@@ -22,7 +31,7 @@ function generateBanner(title) {
       charBox.style.setProperty("--banner-char-size", charSize);
       charBox.style.animationName = "char-move-right";
     }
-
+	
     sumH += rn;
   }
   let height = "calc(50vh - " + sumH / 2 + "rem)";
