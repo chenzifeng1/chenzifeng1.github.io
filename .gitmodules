@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-yun"]
+	path = themes/hexo-theme-yun
+	url = https://github.com/chenzifeng1/blog_backups.git

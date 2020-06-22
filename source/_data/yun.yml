@@ -1,0 +1,17 @@
+bg_image:
+  enable: true
+  url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
+  # dark:
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
+avatar:
+  enable: true
+  url: ../img/head.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+reward:
+  - name: 支付宝
+    path: ../img/pay.png
+    color: "#00A3EE"
+    icon: icon-alipay-line
