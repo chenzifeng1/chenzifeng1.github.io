@@ -15,3 +15,17 @@ reward:
     path: ../img/pay.png
     color: "#00A3EE"
     icon: icon-alipay-line
+social:
+  - name: GitHub
+    link: https://github.com/chenzifeng1
+    icon: icon-github-line
+    color: "#181717"    
+pages:
+  - name: 大阳哥的博客
+    url: https://lmikoto.com/
+    icon: icon-genderless-line
+    color: dodgerblue
+  - name: 狗成的博客
+    url:
+    icon: icon-genderless-line
+    color: dodgerblue
