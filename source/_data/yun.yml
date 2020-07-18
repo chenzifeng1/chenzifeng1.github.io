@@ -2,7 +2,7 @@ bg_image:
   enable: true
   url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
   # dark:
-  # blur: 30px # ÉèÖÃ±³¾°Ä£ºı³Ì¶È
+  # blur: 30px # 
   opacity: 0.8
 avatar:
   enable: true
@@ -11,7 +11,7 @@ avatar:
   opacity: 1
   mickey_mouse: false
 reward:
-  - name: Ö§¸¶±¦
+  - name: Ö§æ”¯ä»˜å®
     path: ../img/pay.png
     color: "#00A3EE"
     icon: icon-alipay-line
@@ -21,11 +21,11 @@ social:
     icon: icon-github-line
     color: "#181717"    
 pages:
-  - name: ´óÑô¸çµÄ²©¿Í
+  - name: å¤§é˜³å“¥çš„åšå®¢ï¼ˆåŠ›æ¨ï¼‰
     url: https://lmikoto.com/
     icon: icon-genderless-line
     color: dodgerblue
-  - name: ¹·³ÉµÄ²©¿Í
-    url:
+  - name: ç‹—æˆçš„åšå®¢ï¼ˆçœ‹çœ‹å°±å¥½ï¼‰
+    url: https://gochenryan.github.io/
     icon: icon-genderless-line
     color: dodgerblue
