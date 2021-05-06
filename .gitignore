@@ -7,3 +7,6 @@ public/
 .deploy*/
 package-lock.json
 .themes/landscape/
+*.iml
+.idea/**
+
